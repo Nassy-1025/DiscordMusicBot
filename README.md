@@ -1,6 +1,9 @@
 # DiscordMusicBot
 
-このBotは、YouTubeやYouTube Musicから楽曲を検索・再生できる多機能音楽Botです。
+このBotは、YouTubeやYouTube Musicから楽曲を検索・再生できる多機能音楽Botです。  
+
+*注意 このプログラムは"ほぼ"100%ChatGPTによって作られています。*  
+あとバグがあってもしらん
 
 🔰 基本コマンド一覧
 --------------------------
