@@ -2,8 +2,8 @@
 
 このBotは、YouTubeから楽曲を検索・再生できる音楽Botです。  
 
-**注意 このプログラムは"ほぼ"100%ChatGPTによって作られています。**  
-あとバグがあってもしらん
+**注意 このプログラムはChatGPTに書かせました。手で修正も加えていますが、ほぼ100&がChatGPTによるコーディングなのでバグがあっても知りません。**  
+使用は自己責任で  
 
 🔰 基本コマンド一覧
 --------------------------
@@ -68,8 +68,10 @@
 ・必要なライブラリは、discord, yt-dlp, ytmusicapi, youtubesearchpythonです。  
 ・ffmpegがインストールされている必要があります。WinならPathもお忘れなく。  
 ・キューの管理にグローバル変数を使っているので、複数サーバーでの使用は保証されません。  
+・Discordの通話で流す都合上、スマートフォンで聞くとノイズキャンセリングに邪魔をされます。  
+PCではきれいに聞こえるので、OS側でなんかやっているんだと思います。
 
 📦 必要なパッケージインストール（例：Ubuntu環境）
 ---------------------------------------------------
-pip install -U discord.py yt_dlp ytmusicapi youtube-search-python  
-sudo apt install ffmpeg
+`pip install -U discord.py yt_dlp ytmusicapi youtube-search-python`  
+`sudo apt install ffmpeg`
