@@ -48,24 +48,24 @@
 
 🎛️ 再生中に表示されるコントロールボタン
 ---------------------------------------------------
-▶️ / ⏸：再生 / 一時停止（切り替え）
-🔊 / 🔉：音量 +10% / -10%
+▶️ / ⏸：再生 / 一時停止（切り替え）  
+🔊 / 🔉：音量 +10% / -10%  
 ⏭：次の曲へスキップ
 
 📌 その他の仕様
 --------------------------
-・曲名での検索は YouTube Music を優先し、見つからなければ通常のYouTubeから取得します。
-・YouTubeプレイリストURLの一括追加にも対応しています。
-・ボイスチャンネルにBotのみが残ると10秒後に自動退出します。
+・曲名での検索は YouTube Music を優先し、見つからなければ通常のYouTubeから取得します。  
+・YouTubeプレイリストURLの一括追加にも対応しています。  
+・ボイスチャンネルにBotのみが残ると10秒後に自動退出します。  
 ・!play 実行時にBotが未参加なら自動でチャンネルに参加します。
 
 🔐 注意事項
 --------------------------
-・Botのトークン（TOKEN）は自分で設定してください。
-・FFmpegが環境にインストールされている必要があります。
-・`ytmusicapi`, `youtube-search-python`, `yt_dlp`, `discord.py` をインストールしておく必要があります。
+・Botのトークン（TOKEN）は自分で設定してください。  
+・必要なライブラリは、discord, yt-dlp, ytmusicapi, youtubesearchpythonです。  
+・ffmpegがインストールされている必要があります。WinならPathもお忘れなく。  
 
-📦 必要なパッケージインストール（例：pip）
+📦 必要なパッケージインストール（例：Ubuntu環境）
 ---------------------------------------------------
-pip install -U discord.py yt_dlp ytmusicapi youtube-search-python
-
+pip install -U discord.py yt_dlp ytmusicapi youtube-search-python  
+sudo apt install ffmpeg
